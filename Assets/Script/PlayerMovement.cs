@@ -2,32 +2,39 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 5f; // Adjust speed as needed
+    [SerializeField] private float moveSpeed = 5f;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
 
-    void Start()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
-    void Update()
+    private void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal"); // Get horizontal input
+        Move();
+        FlipSprite();
+    }
 
-        // Move the player left or right
-        Vector2 movement = new Vector2(horizontalInput * speed * Time.deltaTime, rb.velocity.y);
-        rb.velocity = movement;
+    private void Move()
+    {
+        float horizontalInput = Input.GetAxisRaw("Horizontal");
+        float moveDirection = horizontalInput * moveSpeed;
+        rb.velocity = new Vector2(moveDirection, rb.velocity.y);
+    }
 
-        // Flip the character sprite
-        if (horizontalInput < 0)
+    private void FlipSprite()
+    {
+        if (rb.velocity.x < -0.1f && spriteRenderer.flipX) // Moving right and currently facing left
         {
-            spriteRenderer.flipX = true; // Facing left, flip the sprite
+            spriteRenderer.flipX = false; // Don't flip the sprite
         }
-        else if (horizontalInput > 0)
+        else if (rb.velocity.x > 0.1f && !spriteRenderer.flipX) // Moving left and currently facing right
         {
-            spriteRenderer.flipX = false; // Facing right, don't flip the sprite
+            spriteRenderer.flipX = true; // Flip the sprite
         }
     }
+
 }

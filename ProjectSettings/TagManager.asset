@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Mack
+  - Tia
   layers:
   - Default
   - TransparentFX
@@ -40,4 +42,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3414468509
+    locked: 0
+  - name: Character
+    uniqueID: 1750825591
+    locked: 0
+  - name: UI
+    uniqueID: 3493666689
     locked: 0
