@@ -1,5 +1,185 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8378653802596507175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1558.6658
+    y: -113.33334
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Raymond
+    text: 'So.. '
+    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
+  parentNode: {fileID: -417047605607940542}
+  childNode: {fileID: 3644062047171212280}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-8215449453033082392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1136.6658
+    y: 83.99997
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Raymond
+    text: ..What ?
+    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
+  parentNode: {fileID: 2346720582572664804}
+  childNode: {fileID: -7988477352311532248}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-7988477352311532248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 922.6661
+    y: 82.666595
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Mack
+    text: Y'know, a tree ! Tall, green things-
+    characterSprite: {fileID: 21300000, guid: 99d3dd356e7728647ac7ac8435ca0def, type: 3}
+  parentNode: {fileID: -8215449453033082392}
+  childNode: {fileID: -5895083658909710273}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-7009391927576386146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1123.3323
+    y: -112.66669
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Raymond
+    text: Haha.. yeah..
+    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
+  parentNode: {fileID: 904596727853052798}
+  childNode: {fileID: -417047605607940542}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-6412851631207722708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 558.00006
+    y: 420.66675
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Mack
+    text: All good ! You know where to find me if you wanna hang out !
+    characterSprite: {fileID: 21300000, guid: 99d3dd356e7728647ac7ac8435ca0def, type: 3}
+  parentNode: {fileID: 8705342968754146904}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: end first dialogue
+--- !u!114 &-5895083658909710273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 713.9997
+    y: 77.33331
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Raymond
+    text: I know what a tree is.
+    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
+  parentNode: {fileID: -7988477352311532248}
+  childNode: {fileID: 7081130437974449693}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &-5484189922170842098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16,8 +196,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 5
-    y: 141
+    x: -323
+    y: -110.33334
     width: 190
     height: 135
   isDragging: 0
@@ -26,9 +206,100 @@ MonoBehaviour:
     characterName: ???
     text: "Hello !! Have we met ? I don\u2019t think we\u2019ve met before, have
       we ??"
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 99d3dd356e7728647ac7ac8435ca0def, type: 3}
   parentNode: {fileID: 0}
   childNode: {fileID: 1350977995146496468}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-3718715796314400749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 492.00043
+    y: -109.99997
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Raymond
+    text: Well.. I'm just getting to know my neighbours, y'know.. make a friend or
+      two.
+    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
+  parentNode: {fileID: 859219566982970935}
+  childNode: {fileID: 6907728102519136498}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-458286989455947114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 330.66675
+    y: 256.6666
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Raymond
+    text: I guess it could be fun..
+    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
+  parentNode: {fileID: 2679457894831654339}
+  childNode: {fileID: 6969059955427200211}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-417047605607940542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1342.666
+    y: -112.6667
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Raymond
+    text: ...
+    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
+  parentNode: {fileID: -7009391927576386146}
+  childNode: {fileID: -8378653802596507175}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &11400000
@@ -48,6 +319,26 @@ MonoBehaviour:
   - {fileID: 1350977995146496468}
   - {fileID: 3235218739764828321}
   - {fileID: 859219566982970935}
+  - {fileID: 6907728102519136498}
+  - {fileID: -3718715796314400749}
+  - {fileID: 904596727853052798}
+  - {fileID: -7009391927576386146}
+  - {fileID: -417047605607940542}
+  - {fileID: -8378653802596507175}
+  - {fileID: 3644062047171212280}
+  - {fileID: 2346720582572664804}
+  - {fileID: -8215449453033082392}
+  - {fileID: -7988477352311532248}
+  - {fileID: -5895083658909710273}
+  - {fileID: 7081130437974449693}
+  - {fileID: 5208974557741947344}
+  - {fileID: 2921214767404287470}
+  - {fileID: 2679457894831654339}
+  - {fileID: -458286989455947114}
+  - {fileID: 8705342968754146904}
+  - {fileID: 6969059955427200211}
+  - {fileID: -6412851631207722708}
+  - {fileID: 5945864927385115624}
   nodeToDrawLineFrom: {fileID: 0}
   linePosition: {x: 0, y: 0}
 --- !u!114 &859219566982970935
@@ -66,8 +357,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 602
-    y: 139
+    x: 274.0001
+    y: -112.33334
     width: 190
     height: 135
   isDragging: 0
@@ -76,11 +367,41 @@ MonoBehaviour:
     characterName: Mack
     text: What brings you over to my house ? Is there something I can help you with
       ?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 99d3dd356e7728647ac7ac8435ca0def, type: 3}
   parentNode: {fileID: 3235218739764828321}
-  childNode: {fileID: 0}
+  childNode: {fileID: -3718715796314400749}
   isExternalFunc: 0
   externalFunctionName: 
+--- !u!114 &904596727853052798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 913.3329
+    y: -111.999954
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Mack
+    text: I love making friends !
+    characterSprite: {fileID: 21300000, guid: 99d3dd356e7728647ac7ac8435ca0def, type: 3}
+  parentNode: {fileID: 6907728102519136498}
+  childNode: {fileID: -7009391927576386146}
+  isExternalFunc: 0
+  externalFunctionName: function
 --- !u!114 &1350977995146496468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97,8 +418,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 201
-    y: 137
+    x: -126.33322
+    y: -114.33334
     width: 190
     height: 135
   isDragging: 0
@@ -106,9 +427,98 @@ MonoBehaviour:
   sentence:
     characterName: Raymond
     text: "Um.. Hi.. no, we haven\u2019t. I\u2019m Raymond, I live next door."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
   parentNode: {fileID: -5484189922170842098}
   childNode: {fileID: 3235218739764828321}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &2346720582572664804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1357.9993
+    y: 81.33328
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Mack
+    text: Have you ever chopped down a tree ??
+    characterSprite: {fileID: 21300000, guid: 99d3dd356e7728647ac7ac8435ca0def, type: 3}
+  parentNode: {fileID: 3644062047171212280}
+  childNode: {fileID: -8215449453033082392}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &2679457894831654339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 85.33322
+    y: 262.0001
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Sure.
+  - Maybe later.
+  parentSentenceNode: {fileID: 2921214767404287470}
+  childSentenceNodes:
+  - {fileID: -458286989455947114}
+  - {fileID: 8705342968754146904}
+--- !u!114 &2921214767404287470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 84.666534
+    y: 82
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Mack
+    text: Come on !! It'll be fun !
+    characterSprite: {fileID: 21300000, guid: 99d3dd356e7728647ac7ac8435ca0def, type: 3}
+  parentNode: {fileID: 5208974557741947344}
+  childNode: {fileID: 2679457894831654339}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &3235218739764828321
@@ -127,8 +537,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 401
-    y: 139
+    x: 73.00003
+    y: -112.33334
     width: 190
     height: 135
   isDragging: 0
@@ -136,8 +546,218 @@ MonoBehaviour:
   sentence:
     characterName: Mack
     text: "Hi Raymond ! I\u2019m Mack !! It\u2019s so nice to meet you ! "
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 99d3dd356e7728647ac7ac8435ca0def, type: 3}
   parentNode: {fileID: 1350977995146496468}
   childNode: {fileID: 859219566982970935}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &3644062047171212280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1565.3325
+    y: 86.666595
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Mack
+    text: Hey ! I just had an idea !!
+    characterSprite: {fileID: 21300000, guid: 99d3dd356e7728647ac7ac8435ca0def, type: 3}
+  parentNode: {fileID: -8378653802596507175}
+  childNode: {fileID: 2346720582572664804}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5208974557741947344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 289.3333
+    y: 80.66666
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Raymond
+    text: Umm...
+    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
+  parentNode: {fileID: 7081130437974449693}
+  childNode: {fileID: 2921214767404287470}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5945864927385115624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 809.3327
+    y: 258.00006
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: 
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 6969059955427200211}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: function
+--- !u!114 &6907728102519136498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 702.6667
+    y: -109.33334
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Mack
+    text: 'Oh ? '
+    characterSprite: {fileID: 21300000, guid: 99d3dd356e7728647ac7ac8435ca0def, type: 3}
+  parentNode: {fileID: -3718715796314400749}
+  childNode: {fileID: 904596727853052798}
+  isExternalFunc: 0
+  externalFunctionName: function
+--- !u!114 &6969059955427200211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 570.66656
+    y: 260.00006
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Mack
+    text: Awesome !! Let's go !
+    characterSprite: {fileID: 21300000, guid: 99d3dd356e7728647ac7ac8435ca0def, type: 3}
+  parentNode: {fileID: -458286989455947114}
+  childNode: {fileID: 5945864927385115624}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7081130437974449693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 502.00006
+    y: 78
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Mack
+    text: Let's chop down a tree !! Then we can make something with the wood.
+    characterSprite: {fileID: 21300000, guid: 99d3dd356e7728647ac7ac8435ca0def, type: 3}
+  parentNode: {fileID: -5895083658909710273}
+  childNode: {fileID: 5208974557741947344}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &8705342968754146904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 329.33337
+    y: 400.66675
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Raymond
+    text: Uhh, let me make sure I have nothing else going on.
+    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
+  parentNode: {fileID: 2679457894831654339}
+  childNode: {fileID: -6412851631207722708}
   isExternalFunc: 0
   externalFunctionName: 

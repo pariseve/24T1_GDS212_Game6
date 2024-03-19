@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BakeryScene.unity
     guid: a5728423dcb41fb408649bce7b96f8d4
+  - enabled: 1
+    path: Assets/Scenes/MackEnding.unity
+    guid: 6d5ba74cbdf207845bc725f53e5ed54a
+  - enabled: 1
+    path: Assets/Scenes/TiaEnding.unity
+    guid: ed884b92e8c7ad243b076afdeb82129c
   m_configObjects: {}

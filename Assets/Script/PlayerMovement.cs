@@ -14,8 +14,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        Move();
         FlipSprite();
+    }
+
+    private void FixedUpdate()
+    {
+        Move();
     }
 
     private void Move()

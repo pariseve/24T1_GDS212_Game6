@@ -9,7 +9,7 @@ public class CameraFollow : MonoBehaviour
     public float rightBoundary; 
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         float targetX = target.position.x;
 
