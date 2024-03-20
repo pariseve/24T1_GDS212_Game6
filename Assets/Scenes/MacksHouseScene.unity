@@ -597,7 +597,7 @@ GameObject:
   - component: {fileID: 1065797922}
   - component: {fileID: 1065797921}
   m_Layer: 0
-  m_Name: Dialogue Starter
+  m_Name: Mack Dialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -616,7 +616,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialoguePrefab: {fileID: 702040139}
-  hasAlreadySpoken: 0
   dialogBehaviour2: {fileID: 296051969}
   dialogGraph2: {fileID: 11400000, guid: d8ab9413ba6657a47b57e3c38ed83ed3, type: 2}
   dialogBehaviour: {fileID: 296051969}
