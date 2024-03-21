@@ -16,8 +16,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2215
-    y: 239
+    x: -2055
+    y: 235
     width: 190
     height: 135
   isDragging: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
     characterName: Raymond
     text: "Um.. I\u2019ve actually lived here for a year now, haha\u2026 just don\u2019t
       get out much. "
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
   parentNode: {fileID: 2649371577523337911}
   childNode: {fileID: -7600933589693654541}
   isExternalFunc: 0
@@ -47,8 +47,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2007
-    y: 240
+    x: -1847
+    y: 236
     width: 190
     height: 135
   isDragging: 0
@@ -56,7 +56,7 @@ MonoBehaviour:
   sentence:
     characterName: Raymond
     text: My name's Raymond, it's nice to meet you.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 45bd7181b632d58499ab4c93065313f9, type: 3}
   parentNode: {fileID: -8601993626336001090}
   childNode: {fileID: 4848359683399472617}
   isExternalFunc: 0
@@ -77,20 +77,20 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 345
-    y: 270
+    x: 505
+    y: 266
     width: 190
-    height: 135
+    height: 155
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Tia
-    text: Sure thing !
-    characterSprite: {fileID: 0}
+    text: No worries.
+    characterSprite: {fileID: 21300000, guid: 51b287eb85d9fea4f9685ab511aa3745, type: 3}
   parentNode: {fileID: -3442790453396595928}
   childNode: {fileID: 0}
-  isExternalFunc: 0
-  externalFunctionName: 
+  isExternalFunc: 1
+  externalFunctionName: end tia intro dialogue
 --- !u!114 &-6069582435980680368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,8 +107,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -916
-    y: 180
+    x: -623
+    y: 271
     width: 190
     height: 135
   isDragging: 0
@@ -116,8 +116,8 @@ MonoBehaviour:
   sentence:
     characterName: Tia
     text: Is there anything else I could help you with ?
-    characterSprite: {fileID: 0}
-  parentNode: {fileID: -1204305925452206274}
+    characterSprite: {fileID: 21300000, guid: 51b287eb85d9fea4f9685ab511aa3745, type: 3}
+  parentNode: {fileID: 539744045184864240}
   childNode: {fileID: -5569634366318343422}
   isExternalFunc: 0
   externalFunctionName: 
@@ -137,8 +137,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -703
-    y: 180
+    x: -409
+    y: 279
     width: 190
     height: 135
   isDragging: 0
@@ -147,7 +147,7 @@ MonoBehaviour:
     characterName: Raymond
     text: "Well.. I\u2019m actually just trying to get to know some of my neighbours..
       And, well.. Make some friends."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
   parentNode: {fileID: -6069582435980680368}
   childNode: {fileID: -584764935186539932}
   isExternalFunc: 0
@@ -168,8 +168,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -275
-    y: 178
+    x: -115
+    y: 174
     width: 190
     height: 135
   isDragging: 0
@@ -178,7 +178,7 @@ MonoBehaviour:
     characterName: Tia
     text: Actually.. My shift ends in an hour, would you like to go for a walk by
       the lake together ?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 51b287eb85d9fea4f9685ab511aa3745, type: 3}
   parentNode: {fileID: -584764935186539932}
   childNode: {fileID: -3207606757579269646}
   isExternalFunc: 0
@@ -199,8 +199,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 135
-    y: 264
+    x: 295
+    y: 260
     width: 190
     height: 135
   isDragging: 0
@@ -208,7 +208,7 @@ MonoBehaviour:
   sentence:
     characterName: Raymond
     text: Um, let me think about it first...
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
   parentNode: {fileID: -3207606757579269646}
   childNode: {fileID: -7005236515431868833}
   isExternalFunc: 0
@@ -229,8 +229,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -63
-    y: 180
+    x: 97
+    y: 176
     width: 190
     height: 135
   isDragging: 0
@@ -258,8 +258,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1375
-    y: 260
+    x: -1215
+    y: 256
     width: 190
     height: 135
   isDragging: 0
@@ -267,9 +267,9 @@ MonoBehaviour:
   sentence:
     characterName: Raymond
     text: No, thank you. I'm not very hungry.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 45bd7181b632d58499ab4c93065313f9, type: 3}
   parentNode: {fileID: 7325767332196958786}
-  childNode: {fileID: 0}
+  childNode: {fileID: -1204305925452206274}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &-1204305925452206274
@@ -288,8 +288,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1156
-    y: 260
+    x: -996
+    y: 256
     width: 190
     height: 135
   isDragging: 0
@@ -297,8 +297,8 @@ MonoBehaviour:
   sentence:
     characterName: Tia
     text: That's quite alright.
-    characterSprite: {fileID: 0}
-  parentNode: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 51b287eb85d9fea4f9685ab511aa3745, type: 3}
+  parentNode: {fileID: -2515234370201645359}
   childNode: {fileID: -6069582435980680368}
   isExternalFunc: 0
   externalFunctionName: 
@@ -318,8 +318,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -477
-    y: 179
+    x: -354
+    y: 127
     width: 190
     height: 135
   isDragging: 0
@@ -327,7 +327,7 @@ MonoBehaviour:
   sentence:
     characterName: Tia
     text: Oh how lovely ! I would very much like to be friends.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 51b287eb85d9fea4f9685ab511aa3745, type: 3}
   parentNode: {fileID: -5569634366318343422}
   childNode: {fileID: -4726516631381962577}
   isExternalFunc: 0
@@ -365,8 +365,41 @@ MonoBehaviour:
   - {fileID: 6977536090475683574}
   - {fileID: -3442790453396595928}
   - {fileID: -7005236515431868833}
+  - {fileID: 8724926598905120682}
+  - {fileID: 3338662152020540502}
+  - {fileID: 539744045184864240}
   nodeToDrawLineFrom: {fileID: 0}
   linePosition: {x: 0, y: 0}
+--- !u!114 &539744045184864240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -775
+    y: 102
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: 
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 6584924315166758290}
+  childNode: {fileID: -6069582435980680368}
+  isExternalFunc: 1
+  externalFunctionName: receive donut
 --- !u!114 &2649371577523337911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,8 +416,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2441
-    y: 152
+    x: -2281
+    y: 148
     width: 190
     height: 135
   isDragging: 0
@@ -412,8 +445,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2646
-    y: 146
+    x: -2486
+    y: 142
     width: 190
     height: 135
   isDragging: 0
@@ -422,7 +455,7 @@ MonoBehaviour:
     characterName: Tia
     text: "Good afternoon ! You must be new in town, I don\u2019t believe we\u2019ve
       met. I\u2019m Tia, welcome to my bakery. "
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 51b287eb85d9fea4f9685ab511aa3745, type: 3}
   parentNode: {fileID: 0}
   childNode: {fileID: 2649371577523337911}
   isExternalFunc: 0
@@ -443,8 +476,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2002
-    y: 96
+    x: -1842
+    y: 92
     width: 190
     height: 135
   isDragging: 0
@@ -453,9 +486,39 @@ MonoBehaviour:
     characterName: Tia
     text: "Welcome to Lakeview Nook ! It\u2019s always nice meeting new people, would
       you like to try a pastry ?"
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 51b287eb85d9fea4f9685ab511aa3745, type: 3}
   parentNode: {fileID: 4697785470106635959}
   childNode: {fileID: 7325767332196958786}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &3338662152020540502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 498
+    y: 113
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Tia
+    text: Wonderful ! I'll meet you out the front.
+    characterSprite: {fileID: 21300000, guid: 51b287eb85d9fea4f9685ab511aa3745, type: 3}
+  parentNode: {fileID: 6977536090475683574}
+  childNode: {fileID: 8724926598905120682}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &4697785470106635959
@@ -474,8 +537,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2212
-    y: 99
+    x: -2052
+    y: 95
     width: 190
     height: 135
   isDragging: 0
@@ -483,7 +546,7 @@ MonoBehaviour:
   sentence:
     characterName: Raymond
     text: "Yeah, I, um, just moved in up the road from here. My name\u2019s Raymond."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 45bd7181b632d58499ab4c93065313f9, type: 3}
   parentNode: {fileID: 2649371577523337911}
   childNode: {fileID: 2869220952369783092}
   isExternalFunc: 0
@@ -504,8 +567,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1807
-    y: 242
+    x: -1647
+    y: 238
     width: 190
     height: 135
   isDragging: 0
@@ -514,7 +577,7 @@ MonoBehaviour:
     characterName: Tia
     text: "Oh my ! I\u2019m sorry for being so rude. It's lovely to meet you, Raymond.
       Would you like a pastry ?"
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: f8e2d0aa245c0294e912159aec2fb012, type: 3}
   parentNode: {fileID: -7600933589693654541}
   childNode: {fileID: 7325767332196958786}
   isExternalFunc: 0
@@ -535,8 +598,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1380
-    y: 98
+    x: -1220
+    y: 94
     width: 190
     height: 135
   isDragging: 0
@@ -544,7 +607,7 @@ MonoBehaviour:
   sentence:
     characterName: Raymond
     text: "Yes please, um\u2026 I\u2019ll take whichever you recommend, thank you."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 45bd7181b632d58499ab4c93065313f9, type: 3}
   parentNode: {fileID: 7325767332196958786}
   childNode: {fileID: 6584924315166758290}
   isExternalFunc: 0
@@ -565,8 +628,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1141
-    y: 99
+    x: -981
+    y: 95
     width: 190
     height: 135
   isDragging: 0
@@ -574,9 +637,9 @@ MonoBehaviour:
   sentence:
     characterName: Tia
     text: Here you go !
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 51b287eb85d9fea4f9685ab511aa3745, type: 3}
   parentNode: {fileID: 5999202362308890256}
-  childNode: {fileID: -6069582435980680368}
+  childNode: {fileID: 539744045184864240}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &6977536090475683574
@@ -595,8 +658,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 133
-    y: 125
+    x: 293
+    y: 121
     width: 190
     height: 135
   isDragging: 0
@@ -604,9 +667,9 @@ MonoBehaviour:
   sentence:
     characterName: Raymond
     text: Sure, that sounds nice.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 45bd7181b632d58499ab4c93065313f9, type: 3}
   parentNode: {fileID: -3207606757579269646}
-  childNode: {fileID: 0}
+  childNode: {fileID: 3338662152020540502}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &7325767332196958786
@@ -625,8 +688,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1579
-    y: 194
+    x: -1419
+    y: 190
     width: 190
     height: 135
   isDragging: 0
@@ -638,3 +701,33 @@ MonoBehaviour:
   childSentenceNodes:
   - {fileID: 5999202362308890256}
   - {fileID: -2515234370201645359}
+--- !u!114 &8724926598905120682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 706
+    y: 110
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: 
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 3338662152020540502}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: function

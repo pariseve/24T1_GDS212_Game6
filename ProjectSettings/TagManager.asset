@@ -7,6 +7,7 @@ TagManager:
   - Mack
   - Tia
   - Clover
+  - SpawnPoint
   layers:
   - Default
   - TransparentFX
@@ -47,12 +48,18 @@ TagManager:
   - name: Background
     uniqueID: 3414468509
     locked: 0
+  - name: Character (BG)
+    uniqueID: 3620751203
+    locked: 0
+  - name: Midground
+    uniqueID: 2056128969
+    locked: 0
   - name: Character
     uniqueID: 1750825591
     locked: 0
   - name: Pick Up
     uniqueID: 420729765
     locked: 0
-  - name: UI
+  - name: Foreground
     uniqueID: 3493666689
     locked: 0

@@ -10,6 +10,9 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+
+        // Load the last scene's spawn location and set the player's position
+        transform.position = DetermineSpawnPoint.LoadLastSceneSpawnLocation();
     }
 
     private void Update()
@@ -40,5 +43,4 @@ public class PlayerMovement : MonoBehaviour
             spriteRenderer.flipX = true; // Flip the sprite
         }
     }
-
 }

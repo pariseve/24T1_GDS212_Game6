@@ -16,8 +16,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 988.6658
-    y: 34.666656
+    x: 1566.6658
+    y: -224.33334
     width: 190
     height: 135
   isDragging: 0
@@ -46,8 +46,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 566.6658
-    y: 231.99997
+    x: 1144.6658
+    y: -27.00003
     width: 190
     height: 135
   isDragging: 0
@@ -76,8 +76,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 352.66608
-    y: 230.6666
+    x: 930.666
+    y: -28.333405
     width: 190
     height: 135
   isDragging: 0
@@ -106,8 +106,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 553.3323
-    y: 35.333313
+    x: 1131.3323
+    y: -223.66669
     width: 190
     height: 135
   isDragging: 0
@@ -115,7 +115,7 @@ MonoBehaviour:
   sentence:
     characterName: Raymond
     text: Haha.. yeah..
-    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
+    characterSprite: {fileID: 21300000, guid: 45bd7181b632d58499ab4c93065313f9, type: 3}
   parentNode: {fileID: 904596727853052798}
   childNode: {fileID: -417047605607940542}
   isExternalFunc: 0
@@ -136,8 +136,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -11.999939
-    y: 568.66675
+    x: 566
+    y: 309.66675
     width: 190
     height: 155
   isDragging: 0
@@ -149,7 +149,7 @@ MonoBehaviour:
   parentNode: {fileID: 8705342968754146904}
   childNode: {fileID: 0}
   isExternalFunc: 1
-  externalFunctionName: end first dialogue
+  externalFunctionName: end mack intro dialogue
 --- !u!114 &-5895083658909710273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,8 +166,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 143.9997
-    y: 225.33331
+    x: 721.99976
+    y: -33.666687
     width: 190
     height: 135
   isDragging: 0
@@ -196,8 +196,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -893
-    y: 37.666656
+    x: -315
+    y: -221.33334
     width: 190
     height: 135
   isDragging: 0
@@ -227,8 +227,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -77.99957
-    y: 38.00003
+    x: 500.0005
+    y: -220.99997
     width: 190
     height: 135
   isDragging: 0
@@ -258,8 +258,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -239.33325
-    y: 404.6666
+    x: 338.66675
+    y: 145.6666
     width: 190
     height: 135
   isDragging: 0
@@ -267,7 +267,7 @@ MonoBehaviour:
   sentence:
     characterName: Raymond
     text: I guess it could be fun..
-    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
+    characterSprite: {fileID: 21300000, guid: 45bd7181b632d58499ab4c93065313f9, type: 3}
   parentNode: {fileID: 2679457894831654339}
   childNode: {fileID: 6969059955427200211}
   isExternalFunc: 0
@@ -288,8 +288,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 772.666
-    y: 35.333298
+    x: 1350.666
+    y: -223.6667
     width: 190
     height: 135
   isDragging: 0
@@ -297,7 +297,7 @@ MonoBehaviour:
   sentence:
     characterName: Raymond
     text: ...
-    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
+    characterSprite: {fileID: 21300000, guid: 45bd7181b632d58499ab4c93065313f9, type: 3}
   parentNode: {fileID: -7009391927576386146}
   childNode: {fileID: -8378653802596507175}
   isExternalFunc: 0
@@ -358,8 +358,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -295.99988
-    y: 35.666656
+    x: 282.00012
+    y: -223.33334
     width: 190
     height: 135
   isDragging: 0
@@ -368,7 +368,7 @@ MonoBehaviour:
     characterName: Mack
     text: What brings you over to my house ? Is there something I can help you with
       ?
-    characterSprite: {fileID: 21300000, guid: 99d3dd356e7728647ac7ac8435ca0def, type: 3}
+    characterSprite: {fileID: 21300000, guid: b1e0ce7853ee7344e98863a380f1e096, type: 3}
   parentNode: {fileID: 3235218739764828321}
   childNode: {fileID: -3718715796314400749}
   isExternalFunc: 0
@@ -389,8 +389,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 343.3329
-    y: 36.000046
+    x: 921.3329
+    y: -222.99995
     width: 190
     height: 135
   isDragging: 0
@@ -419,8 +419,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -696.33325
-    y: 33.666656
+    x: -118.33325
+    y: -225.33334
     width: 190
     height: 135
   isDragging: 0
@@ -449,8 +449,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 787.99927
-    y: 229.33328
+    x: 1365.9993
+    y: -29.666718
     width: 190
     height: 135
   isDragging: 0
@@ -458,7 +458,7 @@ MonoBehaviour:
   sentence:
     characterName: Mack
     text: Have you ever chopped down a tree ??
-    characterSprite: {fileID: 21300000, guid: 99d3dd356e7728647ac7ac8435ca0def, type: 3}
+    characterSprite: {fileID: 21300000, guid: b1e0ce7853ee7344e98863a380f1e096, type: 3}
   parentNode: {fileID: 3644062047171212280}
   childNode: {fileID: -8215449453033082392}
   isExternalFunc: 0
@@ -479,8 +479,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -484.66675
-    y: 410.0001
+    x: 93.33325
+    y: 151.00009
     width: 190
     height: 135
   isDragging: 0
@@ -508,8 +508,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -485.3335
-    y: 230
+    x: 92.666504
+    y: -29
     width: 190
     height: 135
   isDragging: 0
@@ -538,8 +538,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -497
-    y: 35.666656
+    x: 81
+    y: -223.33334
     width: 190
     height: 135
   isDragging: 0
@@ -568,8 +568,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 995.3325
-    y: 234.6666
+    x: 1573.3325
+    y: -24.333405
     width: 190
     height: 135
   isDragging: 0
@@ -598,8 +598,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -280.6667
-    y: 228.66666
+    x: 297.33325
+    y: -30.333344
     width: 190
     height: 135
   isDragging: 0
@@ -628,8 +628,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1263
-    y: 138
+    x: 1841
+    y: -121
     width: 190
     height: 135
   isDragging: 0
@@ -658,8 +658,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 239.3327
-    y: 406.00006
+    x: 817.33276
+    y: 147.00006
     width: 190
     height: 155
   isDragging: 0
@@ -688,8 +688,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 132.66669
-    y: 38.666656
+    x: 710.66675
+    y: -220.33334
     width: 190
     height: 135
   isDragging: 0
@@ -697,7 +697,7 @@ MonoBehaviour:
   sentence:
     characterName: Mack
     text: 'Oh ? '
-    characterSprite: {fileID: 21300000, guid: 99d3dd356e7728647ac7ac8435ca0def, type: 3}
+    characterSprite: {fileID: 21300000, guid: b1e0ce7853ee7344e98863a380f1e096, type: 3}
   parentNode: {fileID: -3718715796314400749}
   childNode: {fileID: 904596727853052798}
   isExternalFunc: 0
@@ -718,8 +718,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 0.66656494
-    y: 408.00006
+    x: 578.6665
+    y: 149.00006
     width: 190
     height: 135
   isDragging: 0
@@ -748,8 +748,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -67.99994
-    y: 226
+    x: 510
+    y: -33
     width: 190
     height: 135
   isDragging: 0
@@ -778,8 +778,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -240.66663
-    y: 548.66675
+    x: 337.33337
+    y: 289.66675
     width: 190
     height: 135
   isDragging: 0

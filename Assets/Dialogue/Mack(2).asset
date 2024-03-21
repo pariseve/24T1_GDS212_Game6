@@ -16,8 +16,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 953.3334
-    y: 140.00005
+    x: 433.33337
+    y: 93.000046
     width: 190
     height: 135
   isDragging: 0
@@ -46,8 +46,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 487.99997
-    y: 218.00008
+    x: -32.00003
+    y: 171.00008
     width: 190
     height: 135
   isDragging: 0
@@ -75,8 +75,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 251.99997
-    y: 208.66673
+    x: -268.00003
+    y: 161.66673
     width: 190
     height: 135
   isDragging: 0
@@ -105,8 +105,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 971.33325
-    y: 326.66672
+    x: 451.33325
+    y: 279.66672
     width: 190
     height: 135
   isDragging: 0
@@ -157,8 +157,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1184.6667
-    y: 134.66672
+    x: 664.66675
+    y: 87.66672
     width: 190
     height: 155
   isDragging: 0
@@ -187,8 +187,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 730
-    y: 141.3334
+    x: 210
+    y: 94.333405
     width: 190
     height: 135
   isDragging: 0
@@ -196,7 +196,7 @@ MonoBehaviour:
   sentence:
     characterName: Raymond
     text: I guess it could be fun..
-    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
+    characterSprite: {fileID: 21300000, guid: 45bd7181b632d58499ab4c93065313f9, type: 3}
   parentNode: {fileID: -4697155080690971953}
   childNode: {fileID: -6129180863543853313}
   isExternalFunc: 0
@@ -217,8 +217,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 732.6666
-    y: 328.66675
+    x: 212.66663
+    y: 281.66675
     width: 190
     height: 135
   isDragging: 0
