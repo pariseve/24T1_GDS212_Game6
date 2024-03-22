@@ -719,7 +719,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 457eb1524ae419b45a98d0b7328d3433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: OutsideHouseScene
+  sceneName: IntroScene
   fadePanel: {fileID: 545427824}
   fadeDuration: 1
 --- !u!4 &1264026940

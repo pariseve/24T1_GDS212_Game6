@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4883591865318849806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 37.99997
+    y: 101.33334
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Raymond
+    text: Sigh.. Perhaps it's time I exit my comfort zone.
+    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
+  parentNode: {fileID: 4457735302336494716}
+  childNode: {fileID: -379870707220121644}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-2403009726902885874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -393.33362
+    y: 100.66664
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Raymond
+    text: All the reviews on my latest novel keep mentioning the unnatural dialogue...
+    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 4457735302336494716}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-379870707220121644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 251.33301
+    y: 102.66669
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Raymond
+    text: After all, experience is probably the best way to learn.
+    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
+  parentNode: {fileID: -4883591865318849806}
+  childNode: {fileID: 3210834932098019510}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: IntroScene
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -2403009726902885874}
+  - {fileID: 4457735302336494716}
+  - {fileID: -4883591865318849806}
+  - {fileID: -379870707220121644}
+  - {fileID: 3210834932098019510}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &3210834932098019510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 464.66663
+    y: 96.66669
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: 
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -379870707220121644}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: function
+--- !u!114 &4457735302336494716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -177.33347
+    y: 100.66664
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Raymond
+    text: This is so frustrating, how on earth do I write convincing interactions
+      ??
+    characterSprite: {fileID: 21300000, guid: 7b13d661558d9f543bc8120945190e92, type: 3}
+  parentNode: {fileID: -2403009726902885874}
+  childNode: {fileID: -4883591865318849806}
+  isExternalFunc: 0
+  externalFunctionName: 
