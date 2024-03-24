@@ -1,7 +1,9 @@
 using cherrydev;
 using System.Collections;
 using System.Collections.Generic;
+#if UNITY_EDITOR
 using UnityEditor.PackageManager;
+#endif
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
@@ -9,6 +11,9 @@ using UnityEngine.SceneManagement;
 public class IntroDialogue : MonoBehaviour
 {
     public GameObject dialoguePrefab_;
+
+    [SerializeField] private string sceneName;
+    [SerializeField] private string sceneName2;
 
     [SerializeField] private DialogBehaviour dialogBehaviour_;
     [SerializeField] private DialogNodeGraph dialogGraph_;
@@ -19,16 +24,19 @@ public class IntroDialogue : MonoBehaviour
     private void Start()
     {
         hasFinishedIntro = PlayerPrefs.GetInt("hasFinishedIntro", 0) == 1;
-        if (SceneManager.GetActiveScene().buildIndex == 1)
-        {
+        string currentSceneName = SceneManager.GetActiveScene().name;
+        string firstSceneName = SceneManager.GetActiveScene().name;
 
+        if (currentSceneName == sceneName)
+        {
             DisplayDialogue();
         }
-        else if (SceneManager.GetActiveScene().buildIndex == 2)
+        else if (firstSceneName == sceneName2)
         {
             SceneDialogue();
         }
     }
+
     public void DisplayDialogue()
     {
         dialoguePrefab_.SetActive(true);
@@ -46,6 +54,7 @@ public class IntroDialogue : MonoBehaviour
 
             dialoguePrefab_.SetActive(true);
             dialogBehaviour_.BindExternalFunction("Test", DebugExternal);
+            dialogBehaviour_.BindExternalFunction("function", Function);
             dialogBehaviour_.BindExternalFunction("finish intro", EndIntroDialogue);
             dialogBehaviour_.StartDialog(dialogGraph_);
             hasFinishedIntro = true;

@@ -72,8 +72,10 @@ public class SetDialogueActive : MonoBehaviour
 
     public void SetNPCPanelActive()
     {
+        // Check if the player has already spoken to the NPC
         if (!hasAlreadySpokenToNPC)
         {
+            // Display dialogue for the first interaction with NPC
             dialoguePrefab.SetActive(true);
             dialogBehaviour.BindExternalFunction("function", Function);
             dialogBehaviour.BindExternalFunction("end NPC intro dialogue", NPCIntroDialogueEnd);
@@ -81,26 +83,39 @@ public class SetDialogueActive : MonoBehaviour
         }
         else
         {
+            // Check if the player has a clover
             bool canGiveClover = PlayerPrefs.GetInt("HasClover", 0) == 1;
-            if (canGiveClover)
+            bool hasGivenClover = PlayerPrefs.GetInt("hasGivenClover", 0) == 1;
+
+            Debug.Log("canGiveClover: " + canGiveClover);
+            Debug.Log("hasGivenClover: " + hasGivenClover);
+            Debug.Log("hasAlreadySpokenToNPC: " + hasAlreadySpokenToNPC);
+
+            // Check if the player has a clover and hasn't spoken to the NPC before
+            if (canGiveClover && !hasGivenClover)
             {
                 dialoguePrefab.SetActive(true);
-                dialogBehaviour.BindExternalFunction("Test", DebugExternal);
                 dialogBehaviour.BindExternalFunction("give clover", Function);
                 dialogBehaviour.StartDialog(dialogGraph3);
             }
-            else
+            // Check if the player has given the clover to the NPC and has spoken to the NPC before
+            else if (hasGivenClover && hasAlreadySpokenToNPC)
             {
                 dialoguePrefab.SetActive(true);
-                dialogBehaviour.BindExternalFunction("Test", DebugExternal);
                 dialogBehaviour.StartDialog(dialogGraph4);
             }
+            // Check if the player doesn't have a clover and has spoken to the NPC before
+            else if (!canGiveClover && hasAlreadySpokenToNPC)
+            {
+                dialoguePrefab.SetActive(true);
+                dialogBehaviour.StartDialog(dialogGraph2);
+            }
 
-            //dialoguePrefab.SetActive(true);
-            //dialogBehaviour.BindExternalFunction("Test", DebugExternal);
-            //dialogBehaviour.StartDialog(dialogGraph2);
+
         }
     }
+
+
 
 
 

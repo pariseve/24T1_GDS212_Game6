@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallerPlayer(Raymond) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7262965561834944374, guid: 87421374d5f57d849a3736461a66f300, type: 3}
+      propertyPath: moveSpeed
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

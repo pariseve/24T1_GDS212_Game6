@@ -5,10 +5,10 @@ public class DetermineSpawnPoint : MonoBehaviour
 {
     private const string LastSceneKey = "LastScene";
 
-    private void Start()
-    {
-        DontDestroyOnLoad(this);
-    }
+    //private void Start()
+    //{
+    //    DontDestroyOnLoad(this);
+    //}
 
     // Call this method when the player character leaves a scene
     public static void SaveLastScene()

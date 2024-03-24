@@ -23,6 +23,7 @@ public class ItemHolder : MonoBehaviour
         canGiveClover = PlayerPrefs.GetInt(CloverKey, 0) == 1;
         canGiveDonut = PlayerPrefs.GetInt(DonutKey, 0) == 1;
 
+
         // Check if the clover was deactivated before
         bool cloverDeactivated = PlayerPrefs.GetInt(CloverDeactivatedKey, 0) == 1;
         if (cloverDeactivated)
@@ -120,6 +121,10 @@ public class ItemHolder : MonoBehaviour
                 PlayerPrefs.Save();
             }
 
+            // Set the PlayerPrefs for "hasGivenClover" to indicate that the player has given the clover to the NPC
+            PlayerPrefs.SetInt("hasGivenClover", 1);
+            PlayerPrefs.Save();
+
             // Update game state or dialogue as needed
 
             // Reset clover availability
@@ -130,6 +135,7 @@ public class ItemHolder : MonoBehaviour
             PlayerPrefs.Save();
         }
     }
+
 
 
 

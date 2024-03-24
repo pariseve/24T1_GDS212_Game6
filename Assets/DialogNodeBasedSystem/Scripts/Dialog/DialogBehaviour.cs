@@ -19,6 +19,8 @@ namespace cherrydev
         private DialogNodeGraph currentNodeGraph;
         private Node currentNode;
 
+        private AudioManager audioManager;
+
         private int maxAmountOfAnswerButtons;
 
         private bool isDialogStarted;
@@ -59,7 +61,13 @@ namespace cherrydev
         private void Awake()
         {
             ExternalFunctionsHandler = new DialogExternalFunctionsHandler();
+            audioManager = FindObjectOfType<AudioManager>();
+            if (audioManager == null)
+            {
+                Debug.LogError("AudioManager is not found in the scene.");
+            }
         }
+
 
         private void Update()
         {
@@ -266,6 +274,8 @@ namespace cherrydev
         {
             foreach (char textChar in text)
             {
+                audioManager.PenSFX();
+
                 if (isCurrentSentenceSkipped)
                 {
                     OnDialogTextSkipped?.Invoke(text);

@@ -8,10 +8,18 @@ public class SceneManagement : MonoBehaviour
     [SerializeField] private GameObject fadePanel;
     [SerializeField] private float fadeDuration = 1f;
 
+    AudioManager audioManager;
+
     private void Start()
     {
         // Ensure the fade panel is inactive at the start
         fadePanel.SetActive(false);
+
+        audioManager = FindObjectOfType<AudioManager>();
+        if (audioManager == null)
+        {
+            Debug.LogError("AudioManager not found in the scene!");
+        }
     }
 
     public void GoToScene()
@@ -23,6 +31,7 @@ public class SceneManagement : MonoBehaviour
     {
         // Activate the fade panel
         fadePanel.SetActive(true);
+        audioManager.PaperSFX();
 
         // Fade in effect
         float elapsedTime = 0f;

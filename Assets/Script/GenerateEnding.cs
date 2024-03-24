@@ -9,9 +9,17 @@ public class GenerateEnding : MonoBehaviour
     [SerializeField] private DialogBehaviour dialogBehaviour;
     [SerializeField] private GameObject fadePanel;
     [SerializeField] private float fadeDuration = 1f;
+    AudioManager audioManager;
 
     private Scene currentScene;
-
+    private void Start()
+    {
+        audioManager = FindObjectOfType<AudioManager>();
+        if (audioManager == null)
+        {
+            Debug.LogError("AudioManager not found in the scene!");
+        }
+    }
     public void MackEnding()
     {
         StartCoroutine(FadeAndLoad("MackEnding"));
@@ -25,6 +33,7 @@ public class GenerateEnding : MonoBehaviour
     IEnumerator FadeAndLoad(string sceneName)
     {
         fadePanel.SetActive(true);
+        audioManager.PaperSFX();
 
         float elapsedTime = 0f;
         Color fadeColor = fadePanel.GetComponent<UnityEngine.UI.Image>().color;
